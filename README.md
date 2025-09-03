@@ -24,7 +24,7 @@ WEB Portfolio/
 │   ├── CVDM.pdf         # Currículum
 │── about.html       # Página sobre mí simple
 │── contact.html     # Página de contacto y CV para descargar
-│── index.html       # Página principal
-│── index1.html      # Pagina principal para acceder a la web, añadido extra
+│── home.html        # Página principal
+│── index.html       # Pagina principal para acceder a la web, añadido extra
 │── work.html        # Página de proyectos en desarrollo
 

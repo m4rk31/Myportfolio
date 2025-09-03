@@ -17,13 +17,14 @@ WEB Portfolio/
 │   │   ├── fondo.png
 │   │   ├── retrato.jpg
 │   │   └── webfondo.png
-│   └── js/
-│       ├── main.js
-│       └── script.js
-│── CVDM.pdf         # Currículum
-│── about.html       # Página sobre mí
-│── contact.html     # Página de contacto
+│   ├── js/
+│   │    ├── main.js
+│   │    └── script.js
+│   │
+│   ├── CVDM.pdf         # Currículum
+│── about.html       # Página sobre mí simple
+│── contact.html     # Página de contacto y CV para descargar
 │── index.html       # Página principal
-│── index1.html      # Variante en pruebas
-│── work.html        # Página de proyectos/trabajos
+│── index1.html      # Pagina principal para acceder a la web, añadido extra
+│── work.html        # Página de proyectos en desarrollo
 

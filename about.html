@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <!-- FontAwesome para los iconos de skills -->
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <title>About Me</title>
+</head>
+<body>
+  <header>
+    <div class="menu-btn">
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+    </div>
+    <nav class="menu">
+      <div class="menu-branding"><div class="portrait"></div></div>
+      <ul class="menu-nav">
+        <li class="nav-item"><a href="home.html" class="nav-link">Home</a></li>
+        <li class="nav-item current"><a href="about.html" class="nav-link">About Me</a></li>
+        <li class="nav-item"><a href="work.html" class="nav-link">My Work</a></li>
+        <li class="nav-item"><a href="contact.html" class="nav-link">How to Reach Me</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="about">
+    <h1 class="lg-heading">About <span class="text-secondary">Me</span></h1>
+    <h2 class="sm-heading">Academic Studies &amp; Courses</h2>
+
+    <!-- Estudios -->
+    <section class="grid-container">
+      <div class="card study-card"
+           data-title="ESO & Bachillerato"
+           data-img="assets/images/diplomas/bachillerato.jpg"
+           data-desc="I completed my Secondary Education (ESO) and Bachillerato at Colegio Nuestra Señora Santa María. During this time, I built a foundations in sciences, math, and technology, while also developing critical thinking and problem-solving skills, and also soft skills related to social life. I took part in school projects and extracurricular activities that helped me grow teamwork, leadership, and a curiosity for exploring new topics.">
+        <h3>ESO & Bachillerato</h3>
+        <p>Colegio Nuestra Señora Santa María</p>
+      </div>
+    
+      <div class="card study-card"
+           data-title="BSc in Computer Forensics"
+           data-img="assets/images/diplomas/bsc.jpg"
+           data-desc="I earned a Bachelor's degree in Computer Forensics and Security at the University of Canterbury Christ Church. Throughout the program, I focused on analyzing digital evidence and mastering forensic investigation techniques. I learned about operating systems, networks, little bit of cryptography, and cybersecurity tools, and I worked on practical projects. These experiences gave me hands-on insight into real-world digital investigations.">
+        <h3>BSc in Computer Forensics</h3>
+        <p>University of Canterbury Christ Church</p>
+      </div>
+    </section>
+    
+    <h2 class="sm-heading">Courses</h2>
+    <section class="grid-container">
+      <div class="card course-card"
+           data-title="Ethical Hacking"
+           data-img="assets/images/diplomas/hackingdiploma.png"
+           data-desc="I completed an Ethical Hacking course online, where I learned how to test and secure systems in a responsible way. I practiced finding vulnerabilities in web apps, networks, and operating systems, and learned how to document findings professionally. The course gave me practical skills and a strong sense of cybersecurity ethics.">
+        <h3>Ethical Hacking</h3>
+        <p>Online Platform</p>
+      </div>
+    
+      <div class="card course-card"
+           data-title="Linux Essentials"
+           data-img="assets/images/diplomas/linuxdiploma.png"
+           data-desc="I took a Linux Essentials course online, where I learned to navigate the terminal, write Bash scripts, and manage basic system administration tasks. I became comfortable with user and permission management, network configuration, service setup, and automation. This course helped me gain confidence working in Linux-based environments commonly used in cybersecurity and IT.">
+        <h3>Linux</h3>
+        <p>Online Platform</p>
+      </div>
+    
+      <div class="card course-card"
+           data-title="100 Days of Code: Python"
+           data-img="assets/images/diplomas/python_bootcamp.jpg"
+           data-desc="I completed the 100 Days of Code Python bootcamp, building practical projects to strengthen my programming skills. I worked with APIs, automated tasks, processed data, and handled databases, applying good coding practices along the way. The course helped me turn theoretical knowledge into real, functional projects I can use in personal and professional work.">
+        <h3>100 Days of Code: Python</h3>
+        <p>Online Platform</p>
+      </div>
+    
+      <div class="card course-card"
+           data-title="Digital Forensics"
+           data-img="assets/images/diplomas/forensicsdiploma.jpg"
+           data-desc="I completed an online Digital Forensics course, where I learned to recover data, analyze devices, and extract digital evidence. I practiced using professional forensic tools, examined hard drives and memory devices, reconstructed digital events, and wrote clear technical reports. The course gave me the skills to handle cases and strengthened my ability to work in cybersecurity investigations.">
+        <h3>Digital Forensics</h3>
+        <p>Online Platform</p>
+      </div>
+    </section>
+    
+
+    <!-- Skills interactivos: sólo iconos + barra al hover -->
+    <h2 class="sm-heading">Skills</h2>
+    <section class="skills-container">
+      <div class="skill-item">
+        <i class="skill-icon fab fa-html5"></i>
+        <div class="skill-bar">
+          <div class="skill-fill" style="--target:45%"></div>
+        </div>
+      </div>
+      <div class="skill-item">
+        <i class="skill-icon fab fa-css3-alt"></i>
+        <div class="skill-bar">
+          <div class="skill-fill" style="--target:35%"></div>
+        </div>
+      </div>
+      <div class="skill-item">
+        <i class="skill-icon fab fa-js-square"></i>
+        <div class="skill-bar">
+          <div class="skill-fill" style="--target:10%"></div>
+        </div>
+      </div>
+      <div class="skill-item">
+        <i class="skill-icon fab fa-python"></i>
+        <div class="skill-bar">
+          <div class="skill-fill" style="--target:60%"></div>
+        </div>
+      </div>
+      <div class="skill-item">
+        <i class="skill-icon fab fa-linux"></i>
+        <div class="skill-bar">
+          <div class="skill-fill" style="--target:50%"></div>
+        </div>
+      </div>
+      <div class="skill-item">
+        <i class="skill-icon fas fa-terminal"></i>
+        <div class="skill-bar">
+          <div class="skill-fill" style="--target:40%"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="main-footer">
+    Diego Marcos © 2025
+  </footer>
+
+  <!-- Modal -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2 id="modal-title"></h2>
+      <img id="modal-img" src="" alt="Diploma" />
+      <p id="modal-desc"></p>
+    </div>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+  <script>
+    // Modal logic
+    const modal = document.getElementById('modal');
+    const titleEl = document.getElementById('modal-title');
+    const imgEl = document.getElementById('modal-img');
+    const descEl = document.getElementById('modal-desc');
+    const closeBtn = modal.querySelector('.close');
+
+    document.querySelectorAll('.study-card, .course-card').forEach(card => {
+      card.addEventListener('click', () => {
+        titleEl.textContent = card.dataset.title;
+        imgEl.src = card.dataset.img;
+        descEl.textContent = card.dataset.desc;
+        modal.classList.add('show');
+      });
+    });
+
+    closeBtn.addEventListener('click', () => modal.classList.remove('show'));
+    modal.addEventListener('click', e => {
+      if (e.target === modal) modal.classList.remove('show');
+    });
+  </script>
+</body>
+</html>
